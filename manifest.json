@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "eren.keyboard-layout",
+  "name": "Fcitx5 input method",
+  "version": "1.0.0",
+  "author": "eren",
+  "description": "Shows and toggles the current Fcitx5 input method",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "KeyboardLayout.qml"
+  },
+  "barWidget": {
+    "displayName": "Fcitx5 input method",
+    "description": "Shows and toggles the current Fcitx5 input method",
+    "category": "Input",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.keyboard-layout"
+  }
+}
